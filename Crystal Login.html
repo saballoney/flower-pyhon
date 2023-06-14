@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .login-form {
+      width: 500px;
+      padding: 20px;
+      margin: auto;
+      background: linear-gradient(to right, #00b8d4, #0052d4);
+      border: 1px solid #ccc;
+    }
+    .login-form label {
+      display: block;
+      margin-bottom: 10px;
+      color: white;
+    }
+    .login-form input[type="text"],
+    .login-form input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      background-color: transparent;
+      color: white;
+      border: none;
+      border-bottom: 1px solid white;
+    }
+    .login-form input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <form class="login-form">
+    <label>Username:</label>
+    <input type="text" name="username" required>
+    <label>Password:</label>
+    <input type="password" name="password" required>
+    <input type="submit" value="Login">
+  </form>
+</body>
+</html>
